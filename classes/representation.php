@@ -64,6 +64,7 @@ class Representation {
 		
 		$this->set_filename($file);
         
+		return $this;
     }
     
 	/**
