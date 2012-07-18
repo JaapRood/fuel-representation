@@ -213,7 +213,7 @@ class Representation {
 			}
 			catch (\Exception $e)
 			{
-				throw new \Fuel_Exception($e->getMessage());
+				throw new \FuelException($e->getMessage());
 
 			}
 		};
